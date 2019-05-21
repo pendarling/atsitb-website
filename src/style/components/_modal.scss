@@ -1,0 +1,63 @@
+.signup-modal {
+    align-items: center;
+    background: $grey-fade;
+    display: flex;
+    justify-content: center;
+    padding-top: $l-size;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1000;
+
+    @media (min-width: $desktop-breakpoint) {
+        background: $grey-fade;
+        align-items: center;
+        padding-top: 0;
+    }
+}
+
+.signup-modal__box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: $raleway;
+    font-size: $font-size-m;
+    justify-content: center;
+    padding: $l-size;
+    text-align: center;
+    background: $off-white;
+    border-radius: 5px;
+    width: 40rem;
+
+    input {
+        border: none;
+        border-radius: 5px;
+        margin-bottom: $s-size;
+        padding: $xs-size;
+    }
+
+    button {
+        background: $grey-fade;
+        border-radius: 5px;
+        color: $off-white;
+        padding: $xs-size;
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+
+    }
+}
+
+.signup-modal__title {
+    font-family: $raleway;
+    font-size: $font-size-lg;
+    margin-bottom: $s-size;
+}
+
+.signup-modal__exit {
+    align-self: flex-end;
+    display: block;
+    height: 18px;
+    width: 18px;
+}
+

@@ -1,0 +1,13 @@
+.form {
+    z-index: 1000;
+    // display: flex;
+    // flex-direction: column;
+    // > * {
+    //     margin-bottom: $m-size;
+    // }
+}
+
+.form__error {
+    font-style: italic;
+    margin: 0 0 $m-size 0;
+}

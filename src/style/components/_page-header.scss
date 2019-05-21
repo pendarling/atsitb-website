@@ -1,0 +1,27 @@
+.page-header {
+    border-bottom: 1px solid black;
+    margin-bottom: $xs-size;
+    padding: $s-size 0;
+
+    @media (min-width: $desktop-breakpoint) {
+        margin-bottom: $m-size;
+      }
+};
+
+.page-header__actions {
+    margin-top: $m-size;
+}
+
+.page-header__title {
+    font-family: $shadows;
+    font-size: $font-size-lg;
+    margin: 0;
+
+    span {
+        font-weight: 700;
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        font-size: $font-size-xlg;
+      }
+}

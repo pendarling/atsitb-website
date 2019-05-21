@@ -1,0 +1,45 @@
+.page-content {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: $s-size;
+  justify-content: center;
+
+  @media (min-width: $desktop-breakpoint) {
+    flex-direction: row;
+  }
+}
+
+.page-content--inner {
+  height: 50%;
+  justify-content: center;
+}
+
+.page-content__item {
+  padding: $s-size;
+}
+
+.page-content__header {
+  font-family: $raleway;
+  font-size: $font-size-lg;
+  margin-bottom: $s-size;
+}
+
+.page-content__text {
+  margin-left: 10px;
+}
+
+.page-content__img {
+  width: 100%;
+
+  @media (min-width: $desktop-breakpoint) {
+    width: 50%;
+    height: 80%;
+  }
+  
+}
+
+.page-content__img-sq {
+  width: 90%;
+  object-fit: cover;
+}

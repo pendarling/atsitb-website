@@ -1,0 +1,25 @@
+.button {
+    background: rgba(247, 247, 247, 0.8);;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    font-family: $raleway;
+    font-size: $font-size-m;
+    line-height: 1;
+    padding: $s-size;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        color: $grey;
+    }
+}
+
+.button--link {
+    background: none;
+}
+
+.button--secondary {
+    background: #888888;
+}

@@ -1,0 +1,21 @@
+.photo-carousel {
+  position: fixed;
+  top: 0px;
+  
+  img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  @media (min-width: $desktop-breakpoint) {
+
+    img {
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+    }
+  }
+}
+
+

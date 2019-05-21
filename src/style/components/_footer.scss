@@ -1,0 +1,42 @@
+.footer {
+  background: $white-fade;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 100vw;
+  z-index: 99;
+}
+
+.footer__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.footer__img {
+  height: 60px;
+  padding: $s-size;
+}
+
+.footer__logo {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  padding: $s-size 0;
+}
+
+.footer__text {
+  color: black;
+  font-family: $raleway;
+  font-size: $font-size-sm;
+  h1 {
+      font-family: $shadows;
+      margin: 0;
+  }
+  &:hover {
+      text-decoration: none;
+      color: $grey;
+  }
+}

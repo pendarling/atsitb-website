@@ -1,0 +1,26 @@
+.mobile-menu {
+  background: $white-fade;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+}
+
+.mobile-menu__item {
+  width: 90%;
+  border-bottom: 1px solid $grey;
+  padding: $m-size;
+}
+
+.mobile-menu__link {
+  color: black;
+  font-family: $raleway;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

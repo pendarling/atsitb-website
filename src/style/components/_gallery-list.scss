@@ -1,0 +1,40 @@
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-list__item {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: $s-size;
+}
+
+.gallery-list__link {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+  }
+}
+
+.gallery-list__text {
+  background: $white-fade;
+  color: black;
+  font-family: $shadows;
+  font-size: $font-size-xlg;
+  text-align: center;
+  position: absolute;
+  width: 400px;
+
+}

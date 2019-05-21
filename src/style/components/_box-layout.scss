@@ -1,0 +1,24 @@
+.box-layout {
+    background: $white-fade;
+    border-radius: 5px;
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 90%;
+
+    @media (min-width: $desktop-breakpoint) {
+        width: 30%;
+    }
+};
+
+.box-layout__title {
+    color: black;
+    font-family: $oswald;
+    font-size: $font-size-xlg;
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+};
+
+.box-layout__subtitle {
+    font-family: $raleway;
+    font-size: $font-size-m;
+}
