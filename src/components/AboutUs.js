@@ -26,7 +26,7 @@ const AboutUs = () => (
                           <li>Thursday: 10am-6pm</li>
                           <li>Friday: 10am-6pm</li>
                           <li>Saturday: 10am-6pm</li>
-                          <li>Sunday: CLOSED</li>
+                          <li>Sunday: 12pm-4pm</li>
                       </ul>
                   </div>
                   <div className='page-content__item' >

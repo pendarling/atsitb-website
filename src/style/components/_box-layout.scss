@@ -3,6 +3,7 @@
     border-radius: 5px;
     padding: $l-size $m-size;
     text-align: center;
+    height: auto;
     width: 90%;
 
     @media (min-width: $desktop-breakpoint) {
@@ -19,6 +20,7 @@
 };
 
 .box-layout__subtitle {
+    color: black;
     font-family: $raleway;
     font-size: $font-size-m;
 }
